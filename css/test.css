@@ -17,7 +17,7 @@ body {
 	float: right;
 	border-style: solid;
 	border-width: 1px;
-	box-shadow: 4px 4px 4px 4px #2e2f2d;
+	box-shadow: 4px 2px 4px 2px #2e2f2d;
 }
 .wrapper {
 	width: 62%;
@@ -26,5 +26,5 @@ body {
 	margin-top: 20px;
 	border-style: solid;
 	border-width: 1px;
-	box-shadow: 4px 4px 4px 4px #2e2f2d;
+	box-shadow: 4px 2px 4px 2px #2e2f2d;
 }
