@@ -1,8 +1,30 @@
 body {
-				font-family: "Helvetica Nene", Helvetica, Arial;
-				color: #151c37;
-				background-image: url("https://preview.ibb.co/b4HVGm/lame_gaussian_blur_1920x1080_w_1920x1080_artwallpaperhi_com.jpg");
-				background-repeat: no-repeat;
-				background-attachment: fixed;
-				background-size: cover;	
-			}
+	font-family:'Open Sans Condensed', sans-serif;
+	color: #151c37;
+	background-image: url("https://preview.ibb.co/b4HVGm/lame_gaussian_blur_1920x1080_w_1920x1080_artwallpaperhi_com.jpg");		background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;	
+}
+.topheader-font {
+	font-family: 'Megrim', cursive;
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+}
+.sidebar {
+	width: 35%;
+	display: block;
+	float: right;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 4px 4px 4px 4px #2e2f2d;
+}
+.wrapper {
+	width: 62%;
+	padding: 4px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 4px 4px 4px 4px #2e2f2d;
+}
