@@ -12,7 +12,8 @@ body {
 	text-align: center;
 }
 .sidebar {
-	width: 30%;
+	max-width: 20%;
+	height: auto;
 	margin: 5px;
 	float: right;
 	border-style: solid;
@@ -20,7 +21,8 @@ body {
 	box-shadow: 4px 2px 4px 2px #2e2f2d;
 }
 .wrapper {
-	width: 65%;
+	max-width: 75%;
+	height: auto;
 	padding: 4px;
 	margin: 5px;
 	border-style: solid;
