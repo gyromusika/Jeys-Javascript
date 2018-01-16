@@ -1,6 +1,6 @@
 body {
 	font-family:'Open Sans Condensed', sans-serif;
-	color: #151c37;
+	color: #13342a;
 	background-image: url("https://preview.ibb.co/b4HVGm/lame_gaussian_blur_1920x1080_w_1920x1080_artwallpaperhi_com.jpg");		background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -11,6 +11,7 @@ body {
 	padding: 0.5%;
 	text-align: center;
 	text-shadow: rgba(24, 31, 65, 1) 0px 2px 0.3em;
+	color: #151c37;
 }
 .sidebar {
 	min-width: auto;
