@@ -10,6 +10,7 @@ body {
 	margin: auto;
 	padding: 0.5%;
 	text-align: center;
+	text-shadow: rgba(24, 31, 65, 1) 0px 2px 0.3em;
 }
 .sidebar {
 	min-width: auto;
