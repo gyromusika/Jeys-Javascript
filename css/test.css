@@ -1,5 +1,6 @@
 body {
 	font-family: 'Poppins', sans-serif;
+	font-size: 1.35vw; 
 	color: #13342a;
 	background-image: url("https://preview.ibb.co/b4HVGm/lame_gaussian_blur_1920x1080_w_1920x1080_artwallpaperhi_com.jpg");		background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -16,7 +17,7 @@ body {
 }
 .topheader-font {
 	font-family: 'Megrim', cursive;
-	font-size: 2.1em;
+	font-size: 3vw;
 	top-margin: 3em;
 	padding: 0.2%;
 	text-align: center;
