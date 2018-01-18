@@ -32,11 +32,32 @@ body {
 	border-width: 1px;
 	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
-.sidebar2 {
-	min-width: auto;
-	max-width: 25%;	
-	margin-left: 73.5%;
-	border-style: solid;
-	border-width: 1px;
-	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+.buttons {
+	background-color: rgba(52, 163, 178, 0);
+	border: none;
+	color: white;
+	max-width: 28vw;
+	padding: 10px;
+	text-align: center;
+    text-decoration: none;
+    font-size: 1.15vw;
+    margin-left: 15%;
+    margin-right: 15%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
+.button_nohover {
+	background-color: rgba(21, 28, 55, 0.3);
+	color: #13342a;
+	border: 2px solid #151c37;
+}
+.button_hover:hover {
+	background-color: rgba(21, 28, 55, 0.7);
+	color: #13342a;
+	border: 2px solid #151c37;
+}
+ul.buttons {
+    list-style: none inside url(“css/quotefancy.jpg);
+}
+
