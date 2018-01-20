@@ -11,53 +11,52 @@ body {
 	max-width: 70%;
 	float: left;
 	margin-left: 1.1%;
-	border-style: solid;
-	border-width: 1px;
+	border: 1px solid #151c37;
 	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .topheader-font {
-	font-family: 'Megrim', cursive;
+	font-family: 'Merienda One', cursive;
 	font-size: 2.8vw;
 	top-margin: 3em;
 	padding: 0.2%;
 	text-align: center;
-	text-shadow: rgba(0, 0, 0, 1) 0px 1px 0.3em;
+	text-shadow: rgba(0, 0, 0, 0.8) 0px 1px 0.3em;
 	color: #151c37;
 }
 .sidebar {
 	min-width: auto;
 	max-width: 25%;
 	margin-left: 73.5%;
-	border-style: solid;
-	border-width: 1px;
+	border: 1px solid #151c37;
 	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .buttons {
-	background-color: rgba(52, 163, 178, 0);
-	border: none;
-	color: white;
-	max-width: 28vw;
-	padding: 10px;
+	left-margin: 20px;
 	text-align: center;
-    text-decoration: none;
-    font-size: 1.15vw;
-    margin-left: 15%;
-    margin-right: 15%;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
 }
 .button_nohover {
 	background-color: rgba(21, 28, 55, 0.3);
+	font-family: 'Merienda One', cursive;
+	font-size: 1.3vw;
 	color: #13342a;
-	border: 2px solid #151c37;
+	width: 100%;
+	padding: 10px;
+	min-height: auto;
+	max-height: auto;
+	border: 1px solid #151c37;
 }
 .button_hover:hover {
 	background-color: rgba(21, 28, 55, 0.7);
+	font-family: 'Merienda One', cursive;
 	color: #13342a;
-	border: 2px solid #151c37;
+	width: 100%;
+	border: 1px solid #151c37;
 }
-ul.buttons {
-    list-style: none inside url(“css/quotefancy.jpg);
-}
-
+.spantag {
+	background-color: rgba(21, 28, 55, 0.3);
+	margin-left: 0.4vw;
+	padding-left: 0.7vw;
+	padding-right: 0.7vw;
