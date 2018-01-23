@@ -56,10 +56,11 @@ body {
 	border: 1px solid #151c37;
 }
 .spantag {
+	line-height: 3.5vw;
 	background-color: rgba(21, 28, 55, 0.3);
 	margin-left: 0.4vw;
-	padding-left: 0.7vw;
-	padding-right: 0.7vw;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
 }
 .button_nohoverw {
 	background-color: rgba(21, 28, 55, 0.3);
@@ -79,3 +80,28 @@ body {
 	color: #518575;
 	width: 100%;
 	border: 1px solid #151c37;
+}
+.category {
+	background-color: rgba(21, 28, 55, 0.3);
+	min-width: auto;
+	max-width: 25%;
+	margin-left: 73.5%;
+	border: 1px solid #151c37;
+	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 1.15vw; 
+	line-height: 3vw;
+}
+a:link {
+	color: #13342a;
+}
+a:visited {
+	color: rgba(21, 28, 55, 1);
+}
+a:hover {
+	color: rgba(21, 28, 55, 1);
+}
+a:active {
+	color: #13342a;
+}
