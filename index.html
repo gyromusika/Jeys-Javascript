@@ -46,38 +46,52 @@
 			<div class="sidebar" style="font-family: 'Merienda One', cursive; color:#151c37; text-shadow: rgba(0, 0, 0, 1) 0px 1px 0.3em; text-align: center; border: 1px solid #151c37;  background-color: rgba(21, 28, 55, 0.2);">
 				<h2><strong>Most Recent Posts</strong></h2>
 				<div>
-					<button class="button_hover button_nohover" style="text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 0.2em; border-top-width: 1.5px;">Finished First Page<br>
-							<span style="font-size: 1.3vw; font-family: 'Poppins', sans-serif; color: #151c37;">Fine Tuning the Design</span></button><br>
-					<button class="button_hover button_nohover" style="text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 0.2em;">Initial Beginnings<br>
+					<button class="button_hover button_nohover" style="text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 0.2em; border-top-width: 1.5px;" onclick="openWin1()">
+						<script>
+						function openWin1() {
+							window.open("http://jeysjava.ga/firstpage.html");
+						}
+						</script>Finished First Page<br>
+							<span style="font-size: 1.3vw; font-family: 'Poppins', sans-serif; color: #151c37;">Fine Tuning the Design</span></span><br>
+					<button class="button_hover button_nohover" style="text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 0.2em;" onclick="openWin2()"><script>
+						function openWin2() {
+							window.open("http://jeysjava.ga/beginnings.html");
+						}
+						</script>Initial Beginnings<br>
 							<span style="font-size: 1.3vw; font-family: 'Poppins', sans-serif; color: #151c37;">Finding my Way</span></button><br>						
-					<button class="button_hover button_nohover" style="text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 0.2em;">Third Latest Post<br>
+					<button class="button_hover button_nohover" style="text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 0.2em;" onclick="openWin3()"><script>
+						function openWin3() {
+							window.open("http://jeysjava.ga/thirdpost.html");
+						}
+						</script>Third Latest Post<br>
 							<span style="font-size: 1.3vw; font-family: 'Poppins', sans-serif; color: #151c37;">Description goes here</span></button>
+							<!--My first taste of JavaScript: changing up the <button> tag! Who knew that there's no actual attribute for a link? (I didn't before I did all the work. =/) I made it work without changing up the whole thing altogether to an <a> tag instead, which would have also required me to change up my other link attributes in my stylesheet for the shit below, AKA A TOTAL PAIN-->
 				</div>		
 			</div><br><hr style="border-color: rgba(19, 52, 42, 0.2); margin-left: 72.5%;"><br>
 			<div class="sidebar" style="padding-bottom: 0.8vw; padding-left: 0.10vw; padding-right: 0.08vw; background-color: rgba(21, 28, 55, 0.2)";>
 				<h2 style="font-family: 'Merienda One', cursive; color:#151c37; text-shadow: rgba(0, 0, 0, 1) 0px 1px 0.3em; text-align: center;"><strong>Tags</strong></h2>
-				<span><a class="spantag" href="http://www.jeysjava.ga/HTML5.html" target="_blank">HTML</a></span>
-				<span><a class="spantag" href="http://www.jeysjava.ga/CCS3.html" target="_blank">CCS</a></span>
-				<span><a class="spantag" href="http://www.jeysjava.ga/javascript.html" target="_blank">JavaScript</a>
-				<span><a class="spantag" href="http://www.jeysjava.ga/webdev.html" target="_blank">Web Dev</a></span><br>
-				<span><a class="spantag" href="http://www.jeysjava.ga/coding.html" target="_blank">Coding</a></span>
-				<span><a class="spantag" href="http://www.jeysjava.ga/frontend.html" target="_blank">Frontend</a></span>
-				<span><a class="spantag" href="http://www.jeysjava.ga/backend.html" target="_blank">Backend</a></span><br>
-				<span><a class="spantag" href="http://www.jeysjava.ga/education.html" target="_blank">Education</a></span>
-				<span><a class="spantag" href="http://www.jeysjava.ga/reources.html" target="_blank">Handy Resources</a></span>
-				<span><a class="spantag" href="http://www.jeysjava.ga/raves.html" target="_blank">FKTHIS</a></span>
+				<span><a class="spantag" href="http://jeysjava.ga/HTML5.html" target="_blank">HTML</a></span>
+				<span><a class="spantag" href="http://jeysjava.ga/CCS3.html" target="_blank">CCS</a></span>
+				<span><a class="spantag" href="http://jeysjava.ga/javascript.html" target="_blank">JavaScript</a>
+				<span><a class="spantag" href="http://jeysjava.ga/webdev.html" target="_blank">Web Dev</a></span><br>
+				<span><a class="spantag" href="http://jeysjava.ga/coding.html" target="_blank">Coding</a></span>
+				<span><a class="spantag" href="http://jeysjava.ga/frontend.html" target="_blank">Frontend</a></span>
+				<span><a class="spantag" href="http://jeysjava.ga/backend.html" target="_blank">Backend</a></span><br>
+				<span><a class="spantag" href="http://jeysjava.ga/education.html" target="_blank">Education</a></span>
+				<span><a class="spantag" href="http://jeysjava.ga/reources.html" target="_blank">Handy Resources</a></span>
+				<span><a class="spantag" href="http://jeysjava.ga/raves.html" target="_blank">FKTHIS</a></span>
 			</div>
 			</div><br><hr style="border-color: rgba(19, 52, 42, 0.2); margin-left: 72.5%;"><br>
 			<div>
 				<div class="category">
 					<h2 style="font-family: 'Merienda One', cursive; color:#151c37; text-shadow: rgba(0, 0, 0, 1) 0px 1px 0.3em;">Categories</h2>
-						<span><strong><a href="http://www.jeysjava.ga/basics.html" target="_blank">Learning the Basics</a></span><br>
-						<span><a href="http://www.jeysjava.ga/troubleshooting.html" target="_blank">Troubleshooting 101</a></span><br>
-						<span><a href="http://www.jeysjava.ga/HTML.html" target="_blank">Finding my Way: HTML & CSS</a></span><br>
-						<span><a href="http://www.jeysjava.ga/first.html" target="_blank">My First Programming Language</a></span><br>
-						<span><a href="http://www.jeysjava.ga/pgdesign.html" target="_blank">Page Design</a></span><br>
-						<span><a href="http://www.jeysjava.ga/javascript.html" target="_blank">Finding my Way: Javascript</a></span><br>
-						<span><a href="http://www.jeysjava.ga/FAQ.html" target="_blank">FAQ/Common Concerns & Issues</a></strong></span><br>
+						<span><strong><a href="http://jeysjava.ga/basics.html" target="_blank">Learning the Basics</a></span><br>
+						<span><a href="http://jeysjava.ga/troubleshooting.html" target="_blank">Troubleshooting 101</a></span><br>
+						<span><a href="http://jeysjava.ga/HTML.html" target="_blank">Finding my Way: HTML & CSS</a></span><br>
+						<span><a href="http://jeysjava.ga/first.html" target="_blank">My First Programming Language</a></span><br>
+						<span><a href="http://jeysjava.ga/pgdesign.html" target="_blank">Page Design</a></span><br>
+						<span><a href="http://jeysjava.ga/javascript.html" target="_blank">Finding my Way: Javascript</a></span><br>
+						<span><a href="http://jeysjava.ga/FAQ.html" target="_blank">FAQ/Common Concerns & Issues</a></strong></span><br>
 					<br>
 				</div>
 				</span>
