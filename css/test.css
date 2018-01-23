@@ -40,10 +40,10 @@ body {
 .button_nohover {
 	background-color: rgba(21, 28, 55, 0.3);
 	font-family: 'Merienda One', cursive;
-	font-size: 1.3vw;
+	font-size: 1.7vw;
 	color: #13342a;
 	width: 100%;
-	padding: 10px;
+	padding: 0.25vw;
 	min-height: auto;
 	max-height: auto;
 	border: 1px solid #151c37;
@@ -51,7 +51,7 @@ body {
 .button_hover:hover {
 	background-color: rgba(21, 28, 55, 0.7);
 	font-family: 'Merienda One', cursive;
-	color: #13342a;
+	color: #518575;
 	width: 100%;
 	border: 1px solid #151c37;
 }
@@ -64,10 +64,10 @@ body {
 .button_nohoverw {
 	background-color: rgba(21, 28, 55, 0.3);
 	font-family: 'Merienda One', cursive;
-	font-size: 1.3vw;
+	font-size: 1.8vw;
 	color: #13342a;
 	width: 100%;
-	padding: 5px;
+	padding: 0.05vw;
 	margin: 1.5vw;
 	min-width: auto;
 	max-width: 13vw;
@@ -76,6 +76,6 @@ body {
 .button_hoverw:hover {
 	background-color: rgba(21, 28, 55, 0.7);
 	font-family: 'Merienda One', cursive;
-	color: #13342a;
+	color: #518575;
 	width: 100%;
 	border: 1px solid #151c37;
