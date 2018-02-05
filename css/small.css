@@ -1,0 +1,22 @@
+body {
+	width: 80%;
+	margin: 0 auto;
+}
+.box {
+	width: 100%;
+	margin: 1%;
+	padding: 10% 0;
+	background-color: red;
+}
+@media screen and (min-width: 800px) {
+.box {
+	width: 25%;
+	background-color: blue;
+	float: left;
+}
+}
+@media screen and (min-width: 1200px) {
+.box {
+	background-color: green;
+}
+}
